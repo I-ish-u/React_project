@@ -1,70 +1,125 @@
-.dashboard {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    max-width: 400px;
-    margin: auto;
-  }
-  
-  .header {
-    text-align: center;
-    background-color: #a0e7e5;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .profile-picture img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    /* margin-bottom: 10px; */
-  }
-  
-  h2{
-    text-align: center;
-    font-weight: 700;
-  }
+* {
+  box-sizing: border-box;
+}
 
-  .task-list {
-    background-color: #f8f8f8;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .daily-tasks ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .daily-tasks li {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-  }
-  
-  .daily-tasks input[type="checkbox"] {
-    margin-right: 10px;
-  }
-  
-  .add-task-section {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px;
-  }
-  
-  .add-task-section input {
-    flex: 1;
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .add-task-section button {
-    background-color: #a0e7e5;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 20px;
-    cursor: pointer;
-    color: white;
-  }
-  
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaf7f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard {
+  margin: 10px;
+  border-radius: 30px;
+  width: 400px;
+  padding-bottom: 20px;
+  background-color:  #ececec;
+}
+
+.header {
+  width: 100%;
+  background-color: #c0dbde;
+  text-align: center;
+  margin-bottom: 10px;
+  border-top-left-radius: 30px; 
+  border-top-right-radius: 30px;
+  padding: 10px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.header h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.greeting {
+  color: #888;
+}
+
+.clock-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  text-transform: uppercase;
+}
+
+.clock {
+  font-size: 80px;
+  color: #333;
+}
+
+.task-list {
+  max-width: 350px;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 30px;
+
+}
+.task-header{
+  margin: 10px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.task-container ul {
+  list-style: none;
+}
+
+.task-container li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.task-container li:hover {
+  background: #f0f4f8;
+}
+
+.task-container li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Styles for task header and add button */
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-button {
+  background-color: #73cebc;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,85 @@
+/* Container styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E8F5F7;
+  }
+  
+  /* Form container styling */
+  .form-container {
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #d3e8ea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .title {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Subtitle styling */
+  .subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  /* Form styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Input styling */
+  .input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+
+  .data{
+    margin-top: -10px;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 11px;
+    color:rgba(0, 0, 0, 0.363);
+  }
+  
+  /* Button styling */
+  .button {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #4DD0E1;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Sign-in text styling */
+  .sign-in-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Sign-in link styling */
+  .sign-in-link {
+    color: #4DD0E1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

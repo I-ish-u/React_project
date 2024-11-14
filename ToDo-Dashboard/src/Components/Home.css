@@ -1,0 +1,73 @@
+/* Container and Background */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: #eaf7f8;
+  }
+  /* Content Section */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 350px;
+    text-align: center;
+    background-color:#d3e8ea ;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imageSection {
+    margin-bottom: 20px;
+  }
+
+  .image {
+    width: 100px;
+    height: auto;
+    mix-blend-mode: multiply;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #555;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  /* Button Styling */
+  .button {
+    padding: 10px 20px;
+    background-color: #50c2c9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .buttonlink{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .button:hover {
+    background-color: #3fa9af;
+  }
+  
